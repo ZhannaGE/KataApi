@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(225, 224, 224);
+    font-size: 25px;
+    padding: 0;
+    margin: 15px;
+}
+
+input[type=text] {
+    width: 230px;
+    height: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.98);
+    padding: 8px;
+    outline: none;
+    font-size: 20px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+input:focus {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.98);
+}
+
+#app{
+    text-align: center;
+}
+
+.autocomplete-list, .repo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.autocomplete-item, .repo-item {
+    padding: 8px;
+    cursor: pointer;
+    background-color: white ;
+    border: 1px solid black;
+}
+
+
+.delete-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    display: block;
+}
